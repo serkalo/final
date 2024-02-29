@@ -4,7 +4,7 @@ string firstArray = PrintArray(basicArray);  // печать исходного 
 string secondArray = PrintArray(resultArray);  // печать нового массива в строчку
 Console.WriteLine(firstArray + " -> " + secondArray);  // вывод обеих массивов на консоль
 
-/*int CountSymbols(string[] basicArray)   // метод подсчета элементов в массиве, длина которых меньше либо равна 3 символа
+int CountSymbols(string[] basicArray)   // метод подсчета элементов в массиве, длина которых меньше либо равна 3 символа
 {
     int count = 0;
     foreach (string item in basicArray)
@@ -17,7 +17,7 @@ Console.WriteLine(firstArray + " -> " + secondArray);  // вывод обеих 
     return count;
 }
 
-string[] GetArray3Symbols(string[] basicArray)  // для создания нового массива, состоящего из строк, длина которых меньше либо равна 3 символа
+/*string[] GetArray3Symbols(string[] basicArray)  // для создания нового массива, состоящего из строк, длина которых меньше либо равна 3 символа
 {
     int resultArrayLength = CountSymbols(basicArray);
     string[] resultArray = new string[resultArrayLength];
