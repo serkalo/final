@@ -17,7 +17,7 @@ int CountSymbols(string[] basicArray)   // метод подсчета элем�
     return count;
 }
 
-/*string[] GetArray3Symbols(string[] basicArray)  // для создания нового массива, состоящего из строк, длина которых меньше либо равна 3 символа
+string[] GetArray3Symbols(string[] basicArray)  // для создания нового массива, состоящего из строк, длина которых меньше либо равна 3 символа
 {
     int resultArrayLength = CountSymbols(basicArray);
     string[] resultArray = new string[resultArrayLength];
@@ -33,7 +33,7 @@ int CountSymbols(string[] basicArray)   // метод подсчета элем�
     return resultArray;
 }
 
-string PrintArray(string[] array)   // метод печати исходного массива
+/*tring PrintArray(string[] array)   // метод печати исходного массива
 {
     string stringArray = "[";
     for (int i = 0; i < array.Length; i++)
