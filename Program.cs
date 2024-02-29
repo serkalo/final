@@ -33,7 +33,7 @@ string[] GetArray3Symbols(string[] basicArray)  // для создания но�
     return resultArray;
 }
 
-/*tring PrintArray(string[] array)   // метод печати исходного массива
+string PrintArray(string[] array)   // метод печати исходного массива
 {
     string stringArray = "[";
     for (int i = 0; i < array.Length; i++)
@@ -47,4 +47,4 @@ string[] GetArray3Symbols(string[] basicArray)  // для создания но�
     }
     stringArray += "]";
     return stringArray;
-}*/
+}
